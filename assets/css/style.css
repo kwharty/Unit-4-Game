@@ -1,0 +1,59 @@
+body {
+  
+    background-image: url("../images/nova.jpg");
+ 
+ /**playing around with stretching or floating background image */
+
+    /* background-repeat: no-repeat;
+      background-position: right top;
+      margin-right: -200px;
+      background-attachment: float; */
+  }
+   
+
+ /*get list buttons sorted in line*/ 
+  .myplayer {  
+  height: 250px;
+  padding: 10px 10px 10px 10px;
+    width: 250px;
+    float:left;
+  
+  }
+
+  .jumbotron {
+    
+    text-align: center;
+    width: 100%;
+   
+    
+  }
+
+  #score {
+     /* margin: -200px;
+      padding: -500px; */
+    text-align: center;
+      font-size: 50px;
+      color: whitesmoke;
+
+  }
+
+  #counter {
+
+    text-align: center;
+    font-size: 50px;
+    float: none;
+    clear: both;
+  }
+  
+  .card-header {
+    
+  /*  align-content: center;*/
+    
+  }
+  
+  /*#ball1, #ball3, #ball2 {
+    
+    width: 100px;
+    height: 100px;
+      
+  }

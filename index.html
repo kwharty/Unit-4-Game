@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Boot Camp - Word Guess</title>
+
+    <!-- Bootstrap is used to make game look nicer -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/style.css"> 
+</head>
+
+<body>
+
+    <!-- START CONTAINER -->
+    <div class="container">
+
+        <!-- START JUMBOTRON -->
+        <div class="jumbotron">
+
+            <h1>Click on your favorite Nova Wildcat to become a Champ like them!</h1>
+            <h2></h2>
+            <small>Click any player to begin...go for overtime - only ties win!</small>
+        </div>
+
+        <!-- END JUMBOTRON -->
+
+<!--start button list, make enough classes to ensure they are unique and universally identifiable-->
+
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">
+        <div id="targetNumber" class="numberContainer float-left"></div>
+        <div id="counter" class="numberContainer float-right">
+            <h5>Wins: <span id="wins"></span></h5>
+            <h5>Loss: <span id="loss"></span></h5>
+        </div>
+    </li>
+
+    <!--START BUTTONS-->
+
+<li class="list-group-item players">
+    <img src="assets/images/jb1.jpeg" class="myplayer float-left jalen" alt="Jalen Brunson">
+    <img src="assets/images/donte.jpg" class="myplayer float-left donte" alt="Donte">
+    <img src="assets/images/mb1.jpg" class="myplayer float-left blue mikal" alt="Mikal Bridges">
+    <img src="assets/images/omari.jpg" class="myplayer float-left blue omari" alt="Omari Spellman">
+</li>
+
+<!--END BUTTONS-->
+
+<li class="list-group-item test">Your Total Score is:</li>
+<li>
+        <div id="score" class="p-3 mb-2 bg-info text-white"></div>  
+    </li>
+</ul>
+
+        <!--start card deck-->
+
+        <!--CARD 1- removing card deck, causing issues->
+        <div class="card-deck">
+
+            <div class="card">
+                <div id="ball1">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtyDsy7iGu6kuac0prM8KLpfNgXaDXnNm8aFTjqazJE2wqdcN2Tg"
+                        alt="ball 1">
+
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+
+            <!--CARD 2
+            <div class="card">
+                <div id="ball2">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtyDsy7iGu6kuac0prM8KLpfNgXaDXnNm8aFTjqazJE2wqdcN2Tg"
+                        alt="ball 1">
+
+                </div>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+
+        <!--CARD 3
+
+        <div class="card">
+            <div id="ball3">
+                <img class="card-img-top" src="assets/images/bball1.jpg" alt="ball 1">
+
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has
+                    even longer content than the first to show that equal height action.</p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+     END CONTAINER -->
+
+    <!-- Adds a link to the javascript file. Loaded at the bottom so it waits for the HTML content to display first.
+	If you put this at the top it will crash, because the HTML IDs won't exist yet.-->
+
+    <!-- START JAVASCRIPT -->
+    
+    <script src="../Unit-4-Game/assets/javascript/game.js"></script>
+    
+    
+</body>
+
+</html>
