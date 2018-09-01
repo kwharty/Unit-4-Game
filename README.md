@@ -5,3 +5,5 @@ I tried to make my crystal game a little more fun, by theming it with Villanova 
 I had it working, save for a viable "reset" option. The score kept continuing to go up.
 
 in fixing that, I broke everything. I've tried several wedbsights (i.e. JSHint) to uncover the problem, but some syntax is off somewhere.
+
+
